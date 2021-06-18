@@ -1,0 +1,83 @@
+/* No comment provided by engineer. */
+"Cancel" = "取消";
+
+/* No comment provided by engineer. */
+"Canceled" = "取消";
+
+/* No comment provided by engineer. */
+"Connect" = "连接设备";
+
+/* No comment provided by engineer. */
+"Continue" = "继续";
+
+/* No comment provided by engineer. */
+"Continue in %@ seconds" = "继续中····%@";
+
+/* No comment provided by engineer. */
+"Continue in \(countdown) seconds" = "继续中····";
+
+/* No comment provided by engineer. */
+"Copied" = "复制完成";
+
+/* No comment provided by engineer. */
+"Copy to clipboard" = "复制到剪切板";
+
+/* No comment provided by engineer. */
+"Device isn't supported yet by Diagitizer..." = "尚不支持设备";
+
+/* No comment provided by engineer. */
+"Disconnect" = "断开设备";
+
+/* No comment provided by engineer. */
+"Do you wish to downgrade the NAND firmware of iPad Air now to be able to boot the premium diags?" = "你想现在降低iPad Air的NAND固件以启动高级diags吗？";
+
+/* No comment provided by engineer. */
+"Done!" = "做完了！";
+
+/* No comment provided by engineer. */
+"Error" = "错误";
+
+/* No comment provided by engineer. */
+"Error while exploiting\nReboot and try again..." = "利用漏洞攻击失败，请重启设备并重试！";
+
+/* No comment provided by engineer. */
+"Executing commands..." = "执行启动命令。。。";
+
+/* No comment provided by engineer. */
+"Exploiting..." = "利用中。。。";
+
+/* No comment provided by engineer. */
+"Fetching bootchain..." = "正在获取引导链。。。";
+
+/* No comment provided by engineer. */
+"Fetching bootchain...\nThis could take some minutes..." = "正在获取引导链…\n这可能需要几分钟。。。";
+
+/* No comment provided by engineer. */
+"Information" = "信息";
+
+/* No comment provided by engineer. */
+"No" = "不";
+
+/* No comment provided by engineer. */
+"No device detected..." = "未检测到设备...";
+
+/* No comment provided by engineer. */
+"Please make sure your A5 is already in pwnedDFU. Otherwise diags can't be booted... " = "请确保您的A5已经在pwnedDFU中。否则无法启动诊断。。。";
+
+/* No comment provided by engineer. */
+"Sending diags..." = "发送diags";
+
+/* No comment provided by engineer. */
+"Sending iBoot..." = "发送iBoot";
+
+/* No comment provided by engineer. */
+"Sending iBSS..." = "发送ibss";
+
+/* No comment provided by engineer. */
+"Sending stage 1|5" = "发送阶段1/5";
+
+/* No comment provided by engineer. */
+"Sending stage 2|5" = "发送阶段1/5";
+
+/* No comment provided by engineer. */
+"Yes" = "是";

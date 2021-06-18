@@ -1,0 +1,414 @@
+[
+{
+    "productName":"iPad 5",
+    "internalName":"J71S",
+    "cpid":32768,
+    "bdid":16
+},
+{
+    "productName":"iPad 5",
+    "internalName":"J71S",
+    "cpid":32768,
+    "bdid":18
+},
+{
+    "productName":"iPad 5",
+    "internalName":"J71T",
+    "cpid":32771,
+    "bdid":16
+},
+{
+    "productName":"iPad 5",
+    "internalName":"J71T",
+    "cpid":32771,
+    "bdid":18
+},
+{
+    "productName":"iPad 6",
+    "internalName":"J71B",
+    "cpid":32784,
+    "bdid":24
+},
+{
+    "productName":"iPad 6",
+    "internalName":"J71B",
+    "cpid":32784,
+    "bdid":26
+},
+{
+    "productName":"iPad 7",
+    "internalName":"J171",
+    "cpid":32784,
+    "bdid":28
+},
+{
+    "productName":"iPad 7",
+    "internalName":"J171",
+    "cpid":32784,
+    "bdid":30
+},
+
+{
+    "productName":"iPad mini 4",
+    "internalName":"J96",
+    "cpid":28672,
+    "bdid":8
+},
+{
+    "productName":"iPad mini 4",
+    "internalName":"J96",
+    "cpid":28672,
+    "bdid":10
+},
+{
+    "productName":"iPad Pro 2nd Gen 12.9'",
+    "internalName":"J120",
+    "cpid":32785,
+    "bdid":12
+},
+{
+    "productName":"iPad Pro 2nd Gen 12.9'",
+    "internalName":"J120",
+    "cpid":32785,
+    "bdid":14
+},
+{
+    "productName":"iPad Pro 10.5'",
+    "internalName":"J207",
+    "cpid":32785,
+    "bdid":4
+},
+{
+    "productName":"iPad Pro 10.5'",
+    "internalName":"J207",
+    "cpid":32785,
+    "bdid":6
+},
+{
+    "productName":"iPad Air 2",
+    "internalName":"J81",
+    "cpid":28673,
+    "bdid":6
+},
+{
+    "productName":"iPad Air 2",
+    "internalName":"J81",
+    "cpid":28673,
+    "bdid":2
+},
+{
+    "productName":"iPad 2 2012 WiFi",
+    "internalName":"K93A",
+    "cpid":35138,
+    "bdid":6
+},
+{
+    "productName":"iPad 2 WiFi",
+    "internalName":"K93",
+    "cpid":35136,
+    "bdid":4
+},
+{
+    "productName":"iPad 2 Cellular",
+    "internalName":"K93",
+    "cpid":35136,
+    "bdid":6
+},
+{
+    "productName":"iPad 2 Cellular",
+    "internalName":"K93",
+    "cpid":8940,
+    "bdid":2
+},
+{
+    "productName":"iPad mini 1 WiFi",
+    "internalName":"P105",
+    "cpid":35138,
+    "bdid":10
+},
+{
+    "productName":"iPad mini 1 Cellular",
+    "internalName":"P105",
+    "cpid":35138,
+    "bdid":12
+},
+{
+    "productName":"iPad mini 1 Cellular",
+    "internalName":"P105",
+    "cpid":35138,
+    "bdid":14
+},
+{
+    "productName":"iPad 3 WiFi",
+    "internalName":"J1",
+    "cpid":35141,
+    "bdid":0
+},
+{
+    "productName":"iPad 3 Cellular",
+    "internalName":"J1",
+    "cpid":35141,
+    "bdid":2
+},
+{
+    "productName":"iPad 3 Cellular",
+    "internalName":"J1",
+    "cpid":35141,
+    "bdid":4
+},
+{
+    "productName":"iPad 4 WiFi",
+    "internalName":"P101",
+    "cpid":35157,
+    "bdid":0
+},
+{
+    "productName":"iPad 4 Cellular",
+    "internalName":"P101",
+    "cpid":35157,
+    "bdid":2
+},
+{
+    "productName":"iPad 4 Cellular",
+    "internalName":"P101",
+    "cpid":35157,
+    "bdid":4
+},
+
+{
+    "productName":"iPad Air 1",
+    "internalName":"J71",
+    "cpid":35168,
+    "bdid":16
+},
+{
+    "productName":"iPad Air 1",
+    "internalName":"J71",
+    "cpid":35168,
+    "bdid":18
+},
+{
+    "productName":"iPad Air 1",
+    "internalName":"J71",
+    "cpid":35168,
+    "bdid":20
+},
+{
+    "productName":"iPod Touch 6",
+    "internalName":"N102",
+    "cpid":28672,
+    "bdid":16
+},
+{
+    "productName":"iPad mini 2",
+    "internalName":"J85",
+    "cpid":35168,
+    "bdid":10
+},
+{
+    "productName":"iPad mini 2",
+    "internalName":"J85",
+    "cpid":35168,
+    "bdid":12
+},
+{
+    "productName":"iPad mini 2",
+    "internalName":"J85",
+    "cpid":35168,
+    "bdid":14
+},
+{
+    "productName":"iPad mini 3",
+    "internalName":"J85m",
+    "cpid":35168,
+    "bdid":50
+},
+{
+    "productName":"iPad mini 3",
+    "internalName":"J85m",
+    "cpid":35168,
+    "bdid":52
+},
+{
+    "productName":"iPad mini 3",
+    "internalName":"J85m",
+    "cpid":35168,
+    "bdid":54
+},
+
+{
+    "productName":"iPhone X",
+    "internalName":"D22",
+    "cpid":32789,
+    "bdid":14
+},
+{
+    "productName":"iPhone X",
+    "internalName":"D22",
+    "cpid":32789,
+    "bdid":6
+},
+{
+    "productName":"iPhone 8plus",
+    "internalName":"D21",
+    "cpid":32789,
+    "bdid":12
+},
+{
+    "productName":"iPhone 8plus",
+    "internalName":"D21",
+    "cpid":32789,
+    "bdid":4
+},
+{
+    "productName":"iPhone 8",
+    "internalName":"D20",
+    "cpid":32789,
+    "bdid":10
+},
+{
+    "productName":"iPhone 8",
+    "internalName":"D20",
+    "cpid":32789,
+    "bdid":2
+},
+{
+    "productName":"iPhone 7plus",
+    "internalName":"D111",
+    "cpid":32784,
+    "bdid":10
+},
+{
+    "productName":"iPhone 7plus",
+    "internalName":"D111",
+    "cpid":32784,
+    "bdid":14
+},
+{
+    "productName":"iPhone 7",
+    "internalName":"D101",
+    "cpid":32784,
+    "bdid":8
+},
+{
+    "productName":"iPhone 7",
+    "internalName":"D101",
+    "cpid":32784,
+    "bdid":12
+},
+{
+    "productName":"iPhone SE",
+    "internalName":"N69",
+    "cpid":32771,
+    "bdid":2
+},
+{
+    "productName":"iPhone SE",
+    "internalName":"N69u",
+    "cpid":32768,
+    "bdid":2
+},
+{
+    "productName":"iPhone 6Splus",
+    "internalName":"N66m",
+    "cpid":32771,
+    "bdid":6
+},
+{
+    "productName":"iPhone 6Splus",
+    "internalName":"N66",
+    "cpid":32768,
+    "bdid":6
+},
+{
+    "productName":"iPhone 6S",
+    "internalName":"N71m",
+    "cpid":32771,
+    "bdid":4
+},
+{
+    "productName":"iPhone 6S",
+    "internalName":"N71",
+    "cpid":32768,
+    "bdid":4
+},
+{
+    "productName":"iPhone 6plus",
+    "internalName":"N56",
+    "cpid":28672,
+    "bdid":4
+},
+{
+    "productName":"iPhone 6",
+    "internalName":"N61",
+    "cpid":28672,
+    "bdid":6
+},
+{
+    "productName":"iPhone 5C",
+    "internalName":"N48",
+    "cpid":35152,
+    "bdid":10
+},
+{
+    "productName":"iPhone 5C",
+    "internalName":"N48",
+    "cpid":35152,
+    "bdid":11
+},
+{
+    "productName":"iPhone 5C",
+    "internalName":"N48",
+    "cpid":35152,
+    "bdid":14
+},
+{
+    "productName":"iPhone 5",
+    "internalName":"N41",
+    "cpid":35152,
+    "bdid":0
+},
+{
+    "productName":"iPhone 5",
+    "internalName":"N41",
+    "cpid":35152,
+    "bdid":2
+},
+{
+    "productName":"iPhone 4S",
+    "internalName":"N94",
+    "cpid":35136,
+    "bdid":8
+},
+{
+    "productName":"iPhone 4",
+    "internalName":"N90",
+    "cpid":35120,
+    "bdid":0
+},
+{
+    "productName":"iPhone 4",
+    "internalName":"N90",
+    "cpid":35120,
+    "bdid":4
+},
+{
+    "productName":"iPhone 4",
+    "internalName":"N90",
+    "cpid":35120,
+    "bdid":6
+},
+{
+    "productName":"iPhone 5S (N53AP)",
+    "internalName":"N53",
+    "cpid":35168,
+    "bdid":2
+},
+{
+    "productName":"iPhone 5S (N51AP)",
+    "internalName":"N53",
+    "cpid":35168,
+    "bdid":0
+},
+]
+

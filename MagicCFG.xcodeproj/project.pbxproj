@@ -1,0 +1,783 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47740EC2DDFCF1F3A1293D8B /* Pods_MagicCFG.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BB6CF97B3DA3BDE0E657B38 /* Pods_MagicCFG.framework */; };
+		805E44212541A7B1003CC0F0 /* PurpleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805E44202541A7B1003CC0F0 /* PurpleViewController.swift */; };
+		805E44242541A7E9003CC0F0 /* RNCryptor in Frameworks */ = {isa = PBXBuildFile; productRef = 805E44232541A7E9003CC0F0 /* RNCryptor */; };
+		805E44272541A80D003CC0F0 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 805E44262541A80D003CC0F0 /* ZIPFoundation */; };
+		805E442A2541A85A003CC0F0 /* librecovery.c in Sources */ = {isa = PBXBuildFile; fileRef = 805E44282541A859003CC0F0 /* librecovery.c */; };
+		805E442C2541AAEB003CC0F0 /* supportedDevices.json in Resources */ = {isa = PBXBuildFile; fileRef = 805E442B2541AAEB003CC0F0 /* supportedDevices.json */; };
+		805E4AB82541B4BF003CC0F0 /* exploits in Resources */ = {isa = PBXBuildFile; fileRef = 805E4AB72541B4BE003CC0F0 /* exploits */; };
+		806CCB0D2527410800C41A74 /* libcbpatcher-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB04252740CE00C41A74 /* libcbpatcher-old.a */; };
+		806CCB0E2527410800C41A74 /* libcbpatcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCAFD252740CE00C41A74 /* libcbpatcher.a */; };
+		806CCB0F2527410800C41A74 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB05252740CE00C41A74 /* libcrypto.dylib */; };
+		806CCB102527410800C41A74 /* libcurl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB0A252740CE00C41A74 /* libcurl.dylib */; };
+		806CCB112527410800C41A74 /* libfragmentzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB07252740CE00C41A74 /* libfragmentzip.dylib */; };
+		806CCB122527410800C41A74 /* libiboot32patcher.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB00252740CE00C41A74 /* libiboot32patcher.a */; };
+		806CCB132527410800C41A74 /* libidevicerestore-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB08252740CE00C41A74 /* libidevicerestore-old.a */; };
+		806CCB142527410800C41A74 /* libidevicerestore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCAFF252740CE00C41A74 /* libidevicerestore.a */; };
+		806CCB152527410800C41A74 /* libimobiledevice.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB02252740CE00C41A74 /* libimobiledevice.dylib */; };
+		806CCB162527410800C41A74 /* libirecovery.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB09252740CE00C41A74 /* libirecovery.dylib */; };
+		806CCB172527410800C41A74 /* libplist.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCAFE252740CE00C41A74 /* libplist.dylib */; };
+		806CCB182527410800C41A74 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB01252740CE00C41A74 /* libssl.dylib */; };
+		806CCB192527410800C41A74 /* libusbmuxd.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB03252740CE00C41A74 /* libusbmuxd.dylib */; };
+		806CCB1A2527410800C41A74 /* libxpwntool-old.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB0B252740CF00C41A74 /* libxpwntool-old.a */; };
+		806CCB1B2527410800C41A74 /* libxpwntool.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB0C252740CF00C41A74 /* libxpwntool.a */; };
+		806CCB1C2527410800C41A74 /* libzip.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 806CCB06252740CE00C41A74 /* libzip.dylib */; };
+		806CCB1D2527410F00C41A74 /* libcrypto.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB05252740CE00C41A74 /* libcrypto.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB1E2527411000C41A74 /* libcurl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB0A252740CE00C41A74 /* libcurl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB1F2527411100C41A74 /* libfragmentzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB07252740CE00C41A74 /* libfragmentzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB202527411400C41A74 /* libimobiledevice.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB02252740CE00C41A74 /* libimobiledevice.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB212527411500C41A74 /* libirecovery.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB09252740CE00C41A74 /* libirecovery.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB222527411700C41A74 /* libplist.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCAFE252740CE00C41A74 /* libplist.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB232527411900C41A74 /* libssl.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB01252740CE00C41A74 /* libssl.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB242527411A00C41A74 /* libusbmuxd.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB03252740CE00C41A74 /* libusbmuxd.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		806CCB252527411C00C41A74 /* libzip.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 806CCB06252740CE00C41A74 /* libzip.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		80ECBB3425115A9A002E8DF8 /* USBDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80ECBB3325115A9A002E8DF8 /* USBDetection.swift */; };
+		E417CC6A249EBA2000876CD7 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E417CC68249EBA2000876CD7 /* StartViewController.swift */; };
+		E41FC09E24AE50B100E6F35D /* iCloudUnlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41FC09D24AE50B100E6F35D /* iCloudUnlockViewController.swift */; };
+		E4214CF624A63C5900763B57 /* devices.json in Resources */ = {isa = PBXBuildFile; fileRef = E4214CF524A63C5900763B57 /* devices.json */; };
+		E424D52D2493C3F300ECE732 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = E424D52C2493C3F300ECE732 /* ORSSerial */; };
+		E44068CB258F5A8400DB8C54 /* avrdude in Resources */ = {isa = PBXBuildFile; fileRef = E44068C9258F5A8300DB8C54 /* avrdude */; };
+		E44068CC258F5A8400DB8C54 /* avrdude.conf in Resources */ = {isa = PBXBuildFile; fileRef = E44068CA258F5A8400DB8C54 /* avrdude.conf */; };
+		E44068D0258F5A9B00DB8C54 /* 8940.bin in Resources */ = {isa = PBXBuildFile; fileRef = E44068CD258F5A9900DB8C54 /* 8940.bin */; };
+		E44068D1258F5A9B00DB8C54 /* 8942.bin in Resources */ = {isa = PBXBuildFile; fileRef = E44068CE258F5A9A00DB8C54 /* 8942.bin */; };
+		E44068D2258F5A9B00DB8C54 /* 8945.bin in Resources */ = {isa = PBXBuildFile; fileRef = E44068CF258F5A9B00DB8C54 /* 8945.bin */; };
+		E445927E24A6A06500605197 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E445927D24A6A06500605197 /* InfoViewController.swift */; };
+		E4793E072492B934000ED452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4793E062492B934000ED452 /* AppDelegate.swift */; };
+		E4793E092492B934000ED452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4793E082492B934000ED452 /* ViewController.swift */; };
+		E4793E0B2492B936000ED452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4793E0A2492B936000ED452 /* Assets.xcassets */; };
+		E4793E0E2492B936000ED452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4793E0C2492B936000ED452 /* Main.storyboard */; };
+		E48B41DF25974E040091370B /* YBFileLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B41DC25974E030091370B /* YBFileLogger.swift */; };
+		E48B41E025974E040091370B /* YBLoggerConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B41DD25974E030091370B /* YBLoggerConfiguration.swift */; };
+		E48B41E125974E040091370B /* YBLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48B41DE25974E040091370B /* YBLogger.swift */; };
+		E4AC27EB24B2362100322E1E /* BartyCrouch.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4AC27EA24B2362100322E1E /* BartyCrouch.swift */; };
+		E4AC27F024B2388100322E1E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4AC27F224B2388100322E1E /* Localizable.strings */; };
+		E4C4EF982498D9C8004A2A84 /* Extensions&otherShit.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C4EF972498D9C8004A2A84 /* Extensions&otherShit.swift */; };
+		E4CC09E624D0E8B3009A6B19 /* ChineseContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4CC09E524D0E8B3009A6B19 /* ChineseContactViewController.swift */; };
+		E4DCEEEB249EC23000741608 /* RestoreBackupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DCEEEA249EC23000741608 /* RestoreBackupViewController.swift */; };
+		E4E16457258F50CA00DDA6D5 /* Checkm8duinoFlash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4E16456258F50CA00DDA6D5 /* Checkm8duinoFlash.swift */; };
+		E4E7859024A244840021868B /* SYSCFG_TEMPLATES in Resources */ = {isa = PBXBuildFile; fileRef = E4E7858F24A244830021868B /* SYSCFG_TEMPLATES */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		806CCAF425273CD500C41A74 /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				806CCB212527411500C41A74 /* libirecovery.dylib in Embed Libraries */,
+				806CCB252527411C00C41A74 /* libzip.dylib in Embed Libraries */,
+				806CCB242527411A00C41A74 /* libusbmuxd.dylib in Embed Libraries */,
+				806CCB202527411400C41A74 /* libimobiledevice.dylib in Embed Libraries */,
+				806CCB1E2527411000C41A74 /* libcurl.dylib in Embed Libraries */,
+				806CCB1D2527410F00C41A74 /* libcrypto.dylib in Embed Libraries */,
+				806CCB1F2527411100C41A74 /* libfragmentzip.dylib in Embed Libraries */,
+				806CCB232527411900C41A74 /* libssl.dylib in Embed Libraries */,
+				806CCB222527411700C41A74 /* libplist.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0BB6CF97B3DA3BDE0E657B38 /* Pods_MagicCFG.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MagicCFG.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		35DACC4C1E8FC59A5A31179E /* Pods-MagicCFG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicCFG.debug.xcconfig"; path = "Target Support Files/Pods-MagicCFG/Pods-MagicCFG.debug.xcconfig"; sourceTree = "<group>"; };
+		805E44202541A7B1003CC0F0 /* PurpleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurpleViewController.swift; sourceTree = "<group>"; };
+		805E44282541A859003CC0F0 /* librecovery.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = librecovery.c; sourceTree = "<group>"; };
+		805E44292541A859003CC0F0 /* librecovery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = librecovery.h; sourceTree = "<group>"; };
+		805E442B2541AAEB003CC0F0 /* supportedDevices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = supportedDevices.json; sourceTree = "<group>"; };
+		805E4AB72541B4BE003CC0F0 /* exploits */ = {isa = PBXFileReference; lastKnownFileType = folder; path = exploits; sourceTree = "<group>"; };
+		806CCAFD252740CE00C41A74 /* libcbpatcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcbpatcher.a; sourceTree = "<group>"; };
+		806CCAFE252740CE00C41A74 /* libplist.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libplist.dylib; sourceTree = "<group>"; };
+		806CCAFF252740CE00C41A74 /* libidevicerestore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libidevicerestore.a; sourceTree = "<group>"; };
+		806CCB00252740CE00C41A74 /* libiboot32patcher.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libiboot32patcher.a; sourceTree = "<group>"; };
+		806CCB01252740CE00C41A74 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libssl.dylib; sourceTree = "<group>"; };
+		806CCB02252740CE00C41A74 /* libimobiledevice.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libimobiledevice.dylib; sourceTree = "<group>"; };
+		806CCB03252740CE00C41A74 /* libusbmuxd.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libusbmuxd.dylib; sourceTree = "<group>"; };
+		806CCB04252740CE00C41A74 /* libcbpatcher-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libcbpatcher-old.a"; sourceTree = "<group>"; };
+		806CCB05252740CE00C41A74 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.dylib; sourceTree = "<group>"; };
+		806CCB06252740CE00C41A74 /* libzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libzip.dylib; sourceTree = "<group>"; };
+		806CCB07252740CE00C41A74 /* libfragmentzip.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libfragmentzip.dylib; sourceTree = "<group>"; };
+		806CCB08252740CE00C41A74 /* libidevicerestore-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libidevicerestore-old.a"; sourceTree = "<group>"; };
+		806CCB09252740CE00C41A74 /* libirecovery.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libirecovery.dylib; sourceTree = "<group>"; };
+		806CCB0A252740CE00C41A74 /* libcurl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcurl.dylib; sourceTree = "<group>"; };
+		806CCB0B252740CF00C41A74 /* libxpwntool-old.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libxpwntool-old.a"; sourceTree = "<group>"; };
+		806CCB0C252740CF00C41A74 /* libxpwntool.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libxpwntool.a; sourceTree = "<group>"; };
+		80ECBB3325115A9A002E8DF8 /* USBDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = USBDetection.swift; sourceTree = "<group>"; };
+		80ECBB3525115AB3002E8DF8 /* MagicCFG-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MagicCFG-Bridging-Header.h"; sourceTree = "<group>"; };
+		DE94F89C7A6AD2A86BEBC79E /* Pods-MagicCFG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MagicCFG.release.xcconfig"; path = "Target Support Files/Pods-MagicCFG/Pods-MagicCFG.release.xcconfig"; sourceTree = "<group>"; };
+		E417CC68249EBA2000876CD7 /* StartViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		E41FC09D24AE50B100E6F35D /* iCloudUnlockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCloudUnlockViewController.swift; sourceTree = "<group>"; };
+		E4214CF524A63C5900763B57 /* devices.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = devices.json; sourceTree = "<group>"; };
+		E44068C9258F5A8300DB8C54 /* avrdude */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = avrdude; sourceTree = "<group>"; };
+		E44068CA258F5A8400DB8C54 /* avrdude.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = avrdude.conf; sourceTree = "<group>"; };
+		E44068CD258F5A9900DB8C54 /* 8940.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8940.bin; sourceTree = "<group>"; };
+		E44068CE258F5A9A00DB8C54 /* 8942.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8942.bin; sourceTree = "<group>"; };
+		E44068CF258F5A9B00DB8C54 /* 8945.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = 8945.bin; sourceTree = "<group>"; };
+		E445927D24A6A06500605197 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		E4793E032492B934000ED452 /* MagicCFG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicCFG.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4793E062492B934000ED452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E4793E082492B934000ED452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E4793E0A2492B936000ED452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E4793E0D2492B936000ED452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E4793E0F2492B936000ED452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4793E102492B936000ED452 /* MagicCFG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MagicCFG.entitlements; sourceTree = "<group>"; };
+		E48B41DC25974E030091370B /* YBFileLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBFileLogger.swift; sourceTree = "<group>"; };
+		E48B41DD25974E030091370B /* YBLoggerConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBLoggerConfiguration.swift; sourceTree = "<group>"; };
+		E48B41DE25974E040091370B /* YBLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YBLogger.swift; sourceTree = "<group>"; };
+		E4AC27EA24B2362100322E1E /* BartyCrouch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BartyCrouch.swift; sourceTree = "<group>"; };
+		E4AC27F124B2388100322E1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		E4AC27F524B243A000322E1E /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Main.strings"; sourceTree = "<group>"; };
+		E4AC27F624B243A000322E1E /* zh-HK */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-HK"; path = "zh-HK.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		E4C4EF972498D9C8004A2A84 /* Extensions&otherShit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extensions&otherShit.swift"; sourceTree = "<group>"; };
+		E4CC09E524D0E8B3009A6B19 /* ChineseContactViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChineseContactViewController.swift; sourceTree = "<group>"; };
+		E4DCEEEA249EC23000741608 /* RestoreBackupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestoreBackupViewController.swift; sourceTree = "<group>"; };
+		E4E16456258F50CA00DDA6D5 /* Checkm8duinoFlash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Checkm8duinoFlash.swift; path = /Users/janfabel/Documents/MagicCFG/MagicCFG/Checkm8duinoFlash.swift; sourceTree = "<absolute>"; };
+		E4E7858F24A244830021868B /* SYSCFG_TEMPLATES */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SYSCFG_TEMPLATES; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4793E002492B934000ED452 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E424D52D2493C3F300ECE732 /* ORSSerial in Frameworks */,
+				806CCB0D2527410800C41A74 /* libcbpatcher-old.a in Frameworks */,
+				805E44242541A7E9003CC0F0 /* RNCryptor in Frameworks */,
+				806CCB0E2527410800C41A74 /* libcbpatcher.a in Frameworks */,
+				806CCB0F2527410800C41A74 /* libcrypto.dylib in Frameworks */,
+				806CCB102527410800C41A74 /* libcurl.dylib in Frameworks */,
+				806CCB112527410800C41A74 /* libfragmentzip.dylib in Frameworks */,
+				806CCB122527410800C41A74 /* libiboot32patcher.a in Frameworks */,
+				806CCB132527410800C41A74 /* libidevicerestore-old.a in Frameworks */,
+				806CCB142527410800C41A74 /* libidevicerestore.a in Frameworks */,
+				806CCB152527410800C41A74 /* libimobiledevice.dylib in Frameworks */,
+				806CCB162527410800C41A74 /* libirecovery.dylib in Frameworks */,
+				806CCB172527410800C41A74 /* libplist.dylib in Frameworks */,
+				806CCB182527410800C41A74 /* libssl.dylib in Frameworks */,
+				806CCB192527410800C41A74 /* libusbmuxd.dylib in Frameworks */,
+				806CCB1A2527410800C41A74 /* libxpwntool-old.a in Frameworks */,
+				806CCB1B2527410800C41A74 /* libxpwntool.a in Frameworks */,
+				806CCB1C2527410800C41A74 /* libzip.dylib in Frameworks */,
+				805E44272541A80D003CC0F0 /* ZIPFoundation in Frameworks */,
+				47740EC2DDFCF1F3A1293D8B /* Pods_MagicCFG.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0F9F538D1BA067386128C2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35DACC4C1E8FC59A5A31179E /* Pods-MagicCFG.debug.xcconfig */,
+				DE94F89C7A6AD2A86BEBC79E /* Pods-MagicCFG.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4505E1324CB724200949905 /* Exensions&shit */ = {
+			isa = PBXGroup;
+			children = (
+				E4C4EF972498D9C8004A2A84 /* Extensions&otherShit.swift */,
+			);
+			path = "Exensions&shit";
+			sourceTree = "<group>";
+		};
+		E4793DFA2492B934000ED452 = {
+			isa = PBXGroup;
+			children = (
+				80ECBB3325115A9A002E8DF8 /* USBDetection.swift */,
+				E4793E052492B934000ED452 /* MagicCFG */,
+				E4793E042492B934000ED452 /* Products */,
+				E4D04632249CA113009A5C5E /* Frameworks */,
+				80ECBB3525115AB3002E8DF8 /* MagicCFG-Bridging-Header.h */,
+				805E44282541A859003CC0F0 /* librecovery.c */,
+				805E442B2541AAEB003CC0F0 /* supportedDevices.json */,
+				805E44292541A859003CC0F0 /* librecovery.h */,
+				D0F9F538D1BA067386128C2E /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		E4793E042492B934000ED452 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4793E032492B934000ED452 /* MagicCFG.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4793E052492B934000ED452 /* MagicCFG */ = {
+			isa = PBXGroup;
+			children = (
+				E4AC27F224B2388100322E1E /* Localizable.strings */,
+				E4CC09E524D0E8B3009A6B19 /* ChineseContactViewController.swift */,
+				E4AC27EA24B2362100322E1E /* BartyCrouch.swift */,
+				E4E16456258F50CA00DDA6D5 /* Checkm8duinoFlash.swift */,
+				E44068C9258F5A8300DB8C54 /* avrdude */,
+				E44068CD258F5A9900DB8C54 /* 8940.bin */,
+				E44068CE258F5A9A00DB8C54 /* 8942.bin */,
+				E44068CF258F5A9B00DB8C54 /* 8945.bin */,
+				E48B41DC25974E030091370B /* YBFileLogger.swift */,
+				E48B41DE25974E040091370B /* YBLogger.swift */,
+				E48B41DD25974E030091370B /* YBLoggerConfiguration.swift */,
+				E44068CA258F5A8400DB8C54 /* avrdude.conf */,
+				E4793E062492B934000ED452 /* AppDelegate.swift */,
+				E4793E082492B934000ED452 /* ViewController.swift */,
+				E4DCEEEA249EC23000741608 /* RestoreBackupViewController.swift */,
+				E417CC68249EBA2000876CD7 /* StartViewController.swift */,
+				805E4AB72541B4BE003CC0F0 /* exploits */,
+				E4E7858F24A244830021868B /* SYSCFG_TEMPLATES */,
+				E4793E0A2492B936000ED452 /* Assets.xcassets */,
+				E4214CF524A63C5900763B57 /* devices.json */,
+				E4793E0C2492B936000ED452 /* Main.storyboard */,
+				805E44202541A7B1003CC0F0 /* PurpleViewController.swift */,
+				E41FC09D24AE50B100E6F35D /* iCloudUnlockViewController.swift */,
+				E445927D24A6A06500605197 /* InfoViewController.swift */,
+				E4505E1324CB724200949905 /* Exensions&shit */,
+				E4793E0F2492B936000ED452 /* Info.plist */,
+				E4793E102492B936000ED452 /* MagicCFG.entitlements */,
+			);
+			path = MagicCFG;
+			sourceTree = "<group>";
+		};
+		E4D04632249CA113009A5C5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				806CCB04252740CE00C41A74 /* libcbpatcher-old.a */,
+				806CCAFD252740CE00C41A74 /* libcbpatcher.a */,
+				806CCB05252740CE00C41A74 /* libcrypto.dylib */,
+				806CCB0A252740CE00C41A74 /* libcurl.dylib */,
+				806CCB07252740CE00C41A74 /* libfragmentzip.dylib */,
+				806CCB00252740CE00C41A74 /* libiboot32patcher.a */,
+				806CCB08252740CE00C41A74 /* libidevicerestore-old.a */,
+				806CCAFF252740CE00C41A74 /* libidevicerestore.a */,
+				806CCB02252740CE00C41A74 /* libimobiledevice.dylib */,
+				806CCB09252740CE00C41A74 /* libirecovery.dylib */,
+				806CCAFE252740CE00C41A74 /* libplist.dylib */,
+				806CCB01252740CE00C41A74 /* libssl.dylib */,
+				806CCB03252740CE00C41A74 /* libusbmuxd.dylib */,
+				806CCB0B252740CF00C41A74 /* libxpwntool-old.a */,
+				806CCB0C252740CF00C41A74 /* libxpwntool.a */,
+				806CCB06252740CE00C41A74 /* libzip.dylib */,
+				0BB6CF97B3DA3BDE0E657B38 /* Pods_MagicCFG.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4793E022492B934000ED452 /* MagicCFG */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4793E132492B936000ED452 /* Build configuration list for PBXNativeTarget "MagicCFG" */;
+			buildPhases = (
+				4933A141E9D046E2FE78E6E5 /* [CP] Check Pods Manifest.lock */,
+				E4793DFF2492B934000ED452 /* Sources */,
+				E4793E002492B934000ED452 /* Frameworks */,
+				E4793E012492B934000ED452 /* Resources */,
+				E4AC27EC24B2378100322E1E /* ShellScript */,
+				806CCAF425273CD500C41A74 /* Embed Libraries */,
+				D3AAD556ED972A9F84FABA0C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicCFG;
+			packageProductDependencies = (
+				E424D52C2493C3F300ECE732 /* ORSSerial */,
+				805E44232541A7E9003CC0F0 /* RNCryptor */,
+				805E44262541A80D003CC0F0 /* ZIPFoundation */,
+			);
+			productName = MagicCFG;
+			productReference = E4793E032492B934000ED452 /* MagicCFG.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4793DFB2492B934000ED452 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					New,
+				);
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Jan Fabel";
+				TargetAttributes = {
+					E4793E022492B934000ED452 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1200;
+					};
+				};
+			};
+			buildConfigurationList = E4793DFE2492B934000ED452 /* Build configuration list for PBXProject "MagicCFG" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-HK",
+			);
+			mainGroup = E4793DFA2492B934000ED452;
+			packageReferences = (
+				E424D52B2493C3F300ECE732 /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
+				805E44222541A7E9003CC0F0 /* XCRemoteSwiftPackageReference "RNCryptor" */,
+				805E44252541A80D003CC0F0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+			);
+			productRefGroup = E4793E042492B934000ED452 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4793E022492B934000ED452 /* MagicCFG */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4793E012492B934000ED452 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E44068CB258F5A8400DB8C54 /* avrdude in Resources */,
+				E44068CC258F5A8400DB8C54 /* avrdude.conf in Resources */,
+				805E4AB82541B4BF003CC0F0 /* exploits in Resources */,
+				E4AC27F024B2388100322E1E /* Localizable.strings in Resources */,
+				E4793E0B2492B936000ED452 /* Assets.xcassets in Resources */,
+				E4E7859024A244840021868B /* SYSCFG_TEMPLATES in Resources */,
+				E4793E0E2492B936000ED452 /* Main.storyboard in Resources */,
+				E44068D0258F5A9B00DB8C54 /* 8940.bin in Resources */,
+				E4214CF624A63C5900763B57 /* devices.json in Resources */,
+				805E442C2541AAEB003CC0F0 /* supportedDevices.json in Resources */,
+				E44068D2258F5A9B00DB8C54 /* 8945.bin in Resources */,
+				E44068D1258F5A9B00DB8C54 /* 8942.bin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4933A141E9D046E2FE78E6E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MagicCFG-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3AAD556ED972A9F84FABA0C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicCFG/Pods-MagicCFG-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MagicCFG/Pods-MagicCFG-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MagicCFG/Pods-MagicCFG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4AC27EC24B2378100322E1E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which bartycrouch > /dev/null; then\n    bartycrouch update -x\n    bartycrouch lint -x\nelse\n    echo \"warning: BartyCrouch not installed, download it from https://github.com/Flinesoft/BartyCrouch\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4793DFF2492B934000ED452 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DCEEEB249EC23000741608 /* RestoreBackupViewController.swift in Sources */,
+				805E44212541A7B1003CC0F0 /* PurpleViewController.swift in Sources */,
+				E4793E092492B934000ED452 /* ViewController.swift in Sources */,
+				805E442A2541A85A003CC0F0 /* librecovery.c in Sources */,
+				E4AC27EB24B2362100322E1E /* BartyCrouch.swift in Sources */,
+				E48B41DF25974E040091370B /* YBFileLogger.swift in Sources */,
+				E48B41E025974E040091370B /* YBLoggerConfiguration.swift in Sources */,
+				E41FC09E24AE50B100E6F35D /* iCloudUnlockViewController.swift in Sources */,
+				E48B41E125974E040091370B /* YBLogger.swift in Sources */,
+				E417CC6A249EBA2000876CD7 /* StartViewController.swift in Sources */,
+				E4793E072492B934000ED452 /* AppDelegate.swift in Sources */,
+				80ECBB3425115A9A002E8DF8 /* USBDetection.swift in Sources */,
+				E445927E24A6A06500605197 /* InfoViewController.swift in Sources */,
+				E4E16457258F50CA00DDA6D5 /* Checkm8duinoFlash.swift in Sources */,
+				E4C4EF982498D9C8004A2A84 /* Extensions&otherShit.swift in Sources */,
+				E4CC09E624D0E8B3009A6B19 /* ChineseContactViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E4793E0C2492B936000ED452 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4793E0D2492B936000ED452 /* Base */,
+				E4AC27F524B243A000322E1E /* zh-HK */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E4AC27F224B2388100322E1E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4AC27F124B2388100322E1E /* en */,
+				E4AC27F624B243A000322E1E /* zh-HK */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4793E112492B936000ED452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E4793E122492B936000ED452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E4793E142492B936000ED452 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35DACC4C1E8FC59A5A31179E /* Pods-MagicCFG.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MagicCFG/MagicCFG.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 18062021;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb\"",
+					"\"$(SRCROOT)/../../Downloads/Deca5-1.2-Beta2\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage/FirebaseStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = MagicCFG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libusbmuxd/2.0.2/lib,
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MagicCFG/exploits/ipwndfu8010/libusbfinder",
+					"$(PROJECT_DIR)/MagicCFG",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = "v1.2.8 (stable)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiccfg.MagicCFG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicCFG-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		E4793E152492B936000ED452 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE94F89C7A6AD2A86BEBC79E /* Pods-MagicCFG.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = MagicCFG/MagicCFG.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 18062021;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseAuth/FirebaseAuth.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCore/FirebaseCore.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseCoreDiagnostics/FirebaseCoreDiagnostics.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseDatabase/FirebaseDatabase.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseStorage/FirebaseStorage.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleDataTransport/GoogleDataTransport.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/GoogleUtilities/GoogleUtilities.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/PromisesObjC/FBLPromises.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/leveldb-library/leveldb.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/nanopb/nanopb.framework/Headers\"",
+					"\"${PODS_TARGET_SRCROOT}/Sources/FBLPromises/include\"",
+					/usr/local/include,
+				);
+				INFOPLIST_FILE = MagicCFG/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/libusbmuxd/2.0.2/lib,
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/MagicCFG/exploits/ipwndfu8010/libusbfinder",
+					"$(PROJECT_DIR)/MagicCFG",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MARKETING_VERSION = "v1.2.8 (stable)";
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.magiccfg.MagicCFG;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REEXPORTED_LIBRARY_PATHS = "";
+				SWIFT_INSTALL_OBJC_HEADER = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "MagicCFG-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4793DFE2492B934000ED452 /* Build configuration list for PBXProject "MagicCFG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4793E112492B936000ED452 /* Debug */,
+				E4793E122492B936000ED452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4793E132492B936000ED452 /* Build configuration list for PBXNativeTarget "MagicCFG" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4793E142492B936000ED452 /* Debug */,
+				E4793E152492B936000ED452 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		805E44222541A7E9003CC0F0 /* XCRemoteSwiftPackageReference "RNCryptor" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RNCryptor/RNCryptor";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+		805E44252541A80D003CC0F0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.11;
+			};
+		};
+		E424D52B2493C3F300ECE732 /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/armadsen/ORSSerialPort.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		805E44232541A7E9003CC0F0 /* RNCryptor */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 805E44222541A7E9003CC0F0 /* XCRemoteSwiftPackageReference "RNCryptor" */;
+			productName = RNCryptor;
+		};
+		805E44262541A80D003CC0F0 /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 805E44252541A80D003CC0F0 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
+		};
+		E424D52C2493C3F300ECE732 /* ORSSerial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E424D52B2493C3F300ECE732 /* XCRemoteSwiftPackageReference "ORSSerialPort" */;
+			productName = ORSSerial;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E4793DFB2492B934000ED452 /* Project object */;
+}

@@ -1,0 +1,464 @@
+/* Class = "NSTextFieldCell"; title = "USING THIS SOFTWARE, LOW-LEVEL DATA CAN BE MODIFIED ON THE NAND CHIP OF THE CONNECTED IDEVICE. \nTHIS PROGRAM SHOULD ONLY BE USED BY DEVELOPERS. \nTHE SOFTWARE HAS BEEN DEVELOPED WITH THE BEST OF OUR KNOWLEDGE, HOWEVER, UNEXPECTED ERRORS IN THE PROGRAM ITSELF \nAND INCORRECT USE MAY OCCUR. \nTHE DEVELOPER OF THIS SOFTWARE ASSUMES NO LIABILITY \nFOR POSSIBLE DAMAGE TO EQUIPMENT USED. \nONLY USE THIS SOFTWARE IF YOU KNOW WHAT YOU ARE DOING. \nTHE USE OF THIS SOFTWARE IS AT YOUR OWN RISK!! \nYOU HAVE BEEN WARNED!"; ObjectID = "0Q0-2s-SCe"; */
+"0Q0-2s-SCe.title" = "使用DCSD工程线或串口线连接此软件，\n可以在连接设备的 NAND 芯片上修复底层数据. \n此程序仅供开发及维修人员使用. \n本软件是经过我们精心的设计开发，操作时应提前备份好原始数据； \n但是，程序本身出现了意外错误，误操作出现的设备故障. \n此软件的开发者不承担任何法律责任 \n您需要知道对于使用的设备可能造成的损坏的风险。. \n\n问题及反馈请联系微信公众号：（深圳市深造科技）\n \n⚠️ 再次提醒!! ⚠️ \n‼️ 使用者风险自负 ‼️";
+
+/* Class = "NSMenuItem"; title = "MagicCFG"; ObjectID = "1Xt-HY-uBw"; */
+"1Xt-HY-uBw.title" = "MagicCFG";
+
+/* Class = "NSButtonCell"; title = "Reboot iDevice"; ObjectID = "1yu-C9-UMj"; */
+"1yu-C9-UMj.title" = "重启当前设备";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Manual command..."; ObjectID = "2Cx-sd-StZ"; */
+"2Cx-sd-StZ.placeholderString" = "手動输入指令......";
+
+/* Class = "NSButtonCell"; title = "Connect"; ObjectID = "2EZ-FZ-AiZ"; */
+"2EZ-FZ-AiZ.title" = "连接设备";
+
+/* Class = "NSButtonCell"; title = "Write selected SysCFG"; ObjectID = "2fj-gu-JiR"; */
+"2fj-gu-JiR.title" = "写入所有勾选项";
+
+/* Class = "NSButtonCell"; title = "Read SysCFG"; ObjectID = "2xg-2w-TZc"; */
+"2xg-2w-TZc.title" = "读取底层";
+
+/* Class = "NSMenuItem"; title = "Paste and Match Style"; ObjectID = "4Te-H0-gzH"; */
+"4Te-H0-gzH.title" = "粘贴和匹配样式";
+
+/* Class = "NSMenuItem"; title = "Quit MagicCFG"; ObjectID = "4sb-4s-VLi"; */
+"4sb-4s-VLi.title" = "退出 MagicCFG";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "5Hr-fq-lak"; */
+"5Hr-fq-lak.title" = "单写";
+
+/* Class = "NSViewController"; title = "About"; ObjectID = "5gu-El-twU"; */
+"5gu-El-twU.title" = "关于";
+
+/* Class = "NSMenuItem"; title = "About MagicCFG"; ObjectID = "5kV-Vb-QxS"; */
+"5kV-Vb-QxS.title" = "关于 MagicCFG";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "6e0-of-Usv"; */
+"6e0-of-Usv.title" = "单写";
+
+/* Class = "NSWindow"; title = "About"; ObjectID = "78n-f1-swo"; */
+"78n-f1-swo.title" = "关于";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "7Us-Uk-6t9"; */
+"7Us-Uk-6t9.title" = "单写";
+
+/* Class = "NSMenuItem"; title = "Copy"; ObjectID = "860-Fo-vP0"; */
+"860-Fo-vP0.title" = "拷贝";
+
+/* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
+"AYu-sK-qS6.title" = "主菜单";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "Aio-RN-bTM"; */
+"Aio-RN-bTM.title" = "继续";
+
+/* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
+"BOF-NM-1cW.title" = "偏好设置";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Mode"; ObjectID = "BR4-X1-Ji4"; */
+"BR4-X1-Ji4.placeholderString" = "型号";
+
+/* Class = "NSTextFieldCell"; title = "BCMS"; ObjectID = "BbQ-LF-v5d"; */
+"BbQ-LF-v5d.title" = "后像头";
+
+/* Class = "NSMenuItem"; title = "Edit"; ObjectID = "C58-gn-ikA"; */
+"C58-gn-ikA.title" = "编辑";
+
+/* Class = "NSMenuItem"; title = "Delete"; ObjectID = "CaY-tG-h8I"; */
+"CaY-tG-h8I.title" = "刪除";
+
+/* Class = "NSTextFieldCell"; title = "MtSN"; ObjectID = "Dad-9D-wOf"; */
+"Dad-9D-wOf.title" = "盖板码";
+
+/* Class = "NSButtonCell"; title = "Go"; ObjectID = "EbO-Dq-hI7"; */
+"EbO-Dq-hI7.title" = "执行";
+
+/* Class = "NSButtonCell"; title = "Backup SysCFG"; ObjectID = "En9-a3-JgY"; */
+"En9-a3-JgY.title" = "备份底层";
+
+/* Class = "NSMenu"; title = "Help"; ObjectID = "F2S-fz-NVQ"; */
+"F2S-fz-NVQ.title" = "辅助说明";
+
+/* Class = "NSMenuItem"; title = "MagicCFG Help"; ObjectID = "FKE-Sm-Kum"; */
+"FKE-Sm-Kum.title" = "MagicCFG 辅助说明";
+
+/* Class = "NSTextFieldCell"; placeholderString = "BCMS"; ObjectID = "FZW-By-Zas"; */
+"FZW-By-Zas.placeholderString" = "后像头";
+
+/* Class = "NSTextFieldCell"; title = "WARNING!"; ObjectID = "GGy-YT-aj9"; */
+"GGy-YT-aj9.title" = "⚠️警告!";
+
+/* Class = "NSWindow"; title = "MagicCFG"; ObjectID = "IQv-IB-iLA"; */
+"IQv-IB-iLA.title" = "MagicCFG";
+
+/* Class = "NSMenuItem"; title = "Undo"; ObjectID = "IUa-e9-kVL"; */
+"IUa-e9-kVL.title" = "还原";
+
+/* Class = "NSButtonCell"; title = "Restore Backup file"; ObjectID = "IWn-96-oiL"; */
+"IWn-96-oiL.title" = "恢复备份底层";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "JCZ-VG-ZQK"; */
+"JCZ-VG-ZQK.title" = "单写";
+
+/* Class = "NSButtonCell"; title = "Exit"; ObjectID = "JHu-hd-0de"; */
+"JHu-hd-0de.title" = "退出";
+
+/* Class = "NSTextFieldCell"; placeholderString = "LCM#"; ObjectID = "K93-jz-T5t"; */
+"K93-jz-T5t.placeholderString" = "液晶码";
+
+/* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
+"Kd2-mp-pUS.title" = "全部显示";
+
+/* Class = "NSMenuItem"; title = "Bring All to Front"; ObjectID = "LE2-aR-0XJ"; */
+"LE2-aR-0XJ.title" = "前置全部窗口";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "MUD-n7-pMS"; */
+"MUD-n7-pMS.title" = "单写";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "N7h-sR-RAk"; */
+"N7h-sR-RAk.title" = "单写";
+
+/* Class = "NSTextFieldCell"; title = "EMac"; ObjectID = "NzK-XT-SRy"; */
+"NzK-XT-SRy.title" = "蜂    窩";
+
+/* Class = "NSMenuItem"; title = "Minimize"; ObjectID = "OY7-WF-poV"; */
+"OY7-WF-poV.title" = "缩到最小";
+
+/* Class = "NSMenuItem"; title = "Hide MagicCFG"; ObjectID = "Olw-nP-bQN"; */
+"Olw-nP-bQN.title" = "隐藏 MagicCFG";
+
+/* Class = "NSTextFieldCell"; title = "Mode"; ObjectID = "PD8-Ha-wq9"; */
+"PD8-Ha-wq9.title" = "型    号";
+
+/* Class = "NSTextFieldCell"; title = "DISCLAMER"; ObjectID = "PFb-gT-ZIi"; */
+"PFb-gT-ZIi.title" = "‼️ 重要声明 ‼️";
+
+/* Class = "NSMenuItem"; title = "Color"; ObjectID = "QPV-w2-pcH"; */
+"QPV-w2-pcH.title" = "颜色";
+
+/* Class = "NSMenuItem"; title = "Zoom"; ObjectID = "R4o-n2-Eq4"; */
+"R4o-n2-Eq4.title" = "缩放";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Bluetooth Adress"; ObjectID = "RE2-Vq-ZNB"; */
+"RE2-Vq-ZNB.placeholderString" = "蓝牙";
+
+/* Class = "NSTextFieldCell"; title = "Model"; ObjectID = "Rdw-cL-gKJ"; */
+"Rdw-cL-gKJ.title" = "监管码";
+
+/* Class = "NSTextFieldCell"; title = "NSrN"; ObjectID = "Sf3-6M-jFF"; */
+"Sf3-6M-jFF.title" = "指紋串";
+
+/* Class = "NSTextFieldCell"; title = "SN"; ObjectID = "Taw-8T-rCu"; */
+"Taw-8T-rCu.title" = "序列号";
+
+/* Class = "NSMenu"; title = "Window"; ObjectID = "Td7-aD-5lo"; */
+"Td7-aD-5lo.title" = "视窗";
+
+/* Class = "NSTextFieldCell"; title = "FCMS"; ObjectID = "UOs-L9-irH"; */
+"UOs-L9-irH.title" = "前像头";
+
+/* Class = "NSMenuItem"; title = "Color"; ObjectID = "Ukr-NB-igp"; */
+"Ukr-NB-igp.title" = "颜色";
+
+/* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
+"Vdr-fp-XzO.title" = "隐藏其他";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "Vsz-Wl-oq8"; */
+"Vsz-Wl-oq8.title" = "单写";
+
+/* Class = "NSTextFieldCell"; title = "Version"; ObjectID = "WWa-7m-vNy"; */
+"WWa-7m-vNy.title" = "版本";
+
+/* Class = "NSTextFieldCell"; title = "Please make sure that the selected \nSysCFG-Backup is valid for your device.\nAll existing data will be overwritten!\nTHE DEVELOPER OF THE SOFTWARE DOES NOT LIABILITY ON POSSIBLE PERMANENT INJURY.\n\nCONTINUE IF YOU ACCEPT THE RISK"; ObjectID = "WwK-19-CcZ"; */
+"WwK-19-CcZ.title" = "确定所选备份底层数据正确性 \n所有的数据在执行此操作后将被覆盖!\n开发者对可能造成的永久故障概不负责!\n\n如果您愿意承担风险，请点击“继续“来开始.";
+
+/* Class = "NSMenuItem"; title = "Select All"; ObjectID = "XFw-em-8b4"; */
+"XFw-em-8b4.title" = "全选";
+
+/* Class = "NSTextFieldCell"; placeholderString = "MtSN"; ObjectID = "XIE-jq-Fqp"; */
+"XIE-jq-Fqp.placeholderString" = "盖板码";
+
+/* Class = "NSButtonCell"; title = "Flash"; ObjectID = "XIV-wR-WkT"; */
+"XIV-wR-WkT.title" = "写入新底层";
+
+/* Class = "NSTextFieldCell"; title = "Detected NAND size:"; ObjectID = "XWK-Yx-Jtb"; */
+"XWK-Yx-Jtb.title" = "硬盘容量:";
+
+/* Class = "NSViewController"; title = "MagicCFG"; ObjectID = "XfG-lQ-9wD"; */
+"XfG-lQ-9wD.title" = "MagicCFG";
+
+/* Class = "NSTextFieldCell"; placeholderString = "FCMS"; ObjectID = "YPQ-8J-LLz"; */
+"YPQ-8J-LLz.placeholderString" = "前像头";
+
+/* Class = "NSTextFieldCell"; title = "Restoring..."; ObjectID = "ZRo-iz-s7b"; */
+"ZRo-iz-s7b.title" = "正在恢复...";
+
+/* Class = "NSButtonCell"; title = "Continue"; ObjectID = "Zdp-9c-Q9N"; */
+"Zdp-9c-Q9N.title" = "继续";
+
+/* Class = "NSTextFieldCell"; title = "Here you normally see the command output, if not, try again or contact the developer. Make sure your backup is valid..."; ObjectID = "a1v-3F-oFF"; */
+"a1v-3F-oFF.title" = "在这里您通常会看到命令输出，如果没有，请重试或与开发人员联系。确保备份有效...";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "aOh-iq-ecZ"; */
+"aOh-iq-ecZ.title" = "单写";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "aPi-kM-TVA"; */
+"aPi-kM-TVA.title" = "单写";
+
+/* Class = "NSTextFieldCell"; title = "Color"; ObjectID = "aQ5-tJ-MDQ"; */
+"aQ5-tJ-MDQ.title" = "颜    色";
+
+/* Class = "NSMenuItem"; title = "Window"; ObjectID = "aUF-d1-5bR"; */
+"aUF-d1-5bR.title" = "视窗";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "acY-CI-QUQ"; */
+"acY-CI-QUQ.title" = "单写";
+
+/* Class = "NSMenuItem"; title = "Color"; ObjectID = "adp-IC-g9D"; */
+"adp-IC-g9D.title" = "颜色";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "bcF-aE-DfK"; */
+"bcF-aE-DfK.title" = "单写";
+
+/* Class = "NSMenu"; title = "Edit"; ObjectID = "bfl-YA-Ca7"; */
+"bfl-YA-Ca7.title" = "编辑";
+
+/* Class = "NSTextFieldCell"; title = "About MagicCFG"; ObjectID = "blg-E4-ULy"; */
+"blg-E4-ULy.title" = "关于 MagicCFG";
+
+/* Class = "NSTextFieldCell"; placeholderString = "NSrN"; ObjectID = "bw3-eo-o9F"; */
+"bw3-eo-o9F.placeholderString" = "指紋串";
+
+/* Class = "NSWindow"; title = "MagicCFG"; ObjectID = "ci3-7l-FVL"; */
+"ci3-7l-FVL.title" = "MagicCFG";
+
+/* Class = "NSTextFieldCell"; title = "Manual command shell"; ObjectID = "cnh-aJ-DVK"; */
+"cnh-aJ-DVK.title" = "进程监视窗口";
+
+/* Class = "NSTextFieldCell"; title = "Wifi"; ObjectID = "dhx-7c-0CN"; */
+"dhx-7c-0CN.title" = "Wi - Fi";
+
+/* Class = "NSTextFieldCell"; title = "Battery"; ObjectID = "ert-ac-eRD"; */
+"ert-ac-eRD.title" = "电池码";
+
+/* Class = "NSButtonCell"; title = "Unbind WiFi"; ObjectID = "eyR-Nc-A1T"; */
+"eyR-Nc-A1T.title" = "解綁 Wi-Fi";
+
+/* Class = "NSTextFieldCell"; placeholderString = "NvSn"; ObjectID = "foh-tu-avd"; */
+"foh-tu-avd.placeholderString" = "指纹码";
+
+/* Class = "NSMenuItem"; title = "Cut"; ObjectID = "gHy-Aj-lhQ"; */
+"gHy-Aj-lhQ.title" = "剪下";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Model"; ObjectID = "ggU-up-yVd"; */
+"ggU-up-yVd.placeholderString" = "监管码";
+
+/* Class = "NSButtonCell"; title = "iCloud unlock"; ObjectID = "gnw-ca-LN1"; */
+"gnw-ca-LN1.title" = "iCloud ";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "gxZ-Hw-MAL"; */
+"gxZ-Hw-MAL.title" = "单写";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "jcI-bE-VhT"; */
+"jcI-bE-VhT.title" = "单写";
+
+/* Class = "NSTextFieldCell"; title = "Repair options"; ObjectID = "jeq-F5-nlP"; */
+"jeq-F5-nlP.title" = "維修选项：";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Wifi Mac Adress"; ObjectID = "kGr-yE-CMW"; */
+"kGr-yE-CMW.placeholderString" = "Wi-Fi";
+
+/* Class = "NSTextFieldCell"; placeholderString = "MLB"; ObjectID = "kSH-Gt-hT4"; */
+"kSH-Gt-hT4.placeholderString" = "主板码";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "lL4-tP-EWD"; */
+"lL4-tP-EWD.title" = "单写";
+
+/* Class = "NSTextFieldCell"; title = "LCM#"; ObjectID = "mB3-i5-fcW"; */
+"mB3-i5-fcW.title" = "液晶码";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "mYK-bz-HXj"; */
+"mYK-bz-HXj.title" = "单写";
+
+/* Class = "NSMenuItem"; title = "Redo"; ObjectID = "o3f-EM-Dbc"; */
+"o3f-EM-Dbc.title" = "重做";
+
+/* Class = "NSButtonCell"; title = "Enter DiagsMode"; ObjectID = "p8w-YE-4oj"; */
+"p8w-YE-4oj.title" = "进入紫屏";
+
+/* Class = "NSViewController"; title = "Restore SysCFG Backup"; ObjectID = "rco-M9-fP2"; */
+"rco-M9-fP2.title" = "恢复备份底层";
+
+/* Class = "NSTextFieldCell"; title = "NVSN"; ObjectID = "rcu-i0-Fwc"; */
+"rcu-i0-Fwc.title" = "指紋码";
+
+/* Class = "NSTextFieldCell"; title = "MLB"; ObjectID = "rhD-T2-D3M"; */
+"rhD-T2-D3M.title" = "主板码";
+
+/* Class = "NSTextFieldCell"; title = "Region"; ObjectID = "sEu-hb-Bqc"; */
+"sEu-hb-Bqc.title" = "地    区";
+
+/* Class = "NSButtonCell"; title = "Write"; ObjectID = "sJP-Jl-wUd"; */
+"sJP-Jl-wUd.title" = "单写";
+
+/* Class = "NSTextFieldCell"; title = "BMac"; ObjectID = "sst-bW-cD2"; */
+"sst-bW-cD2.title" = "蓝    牙";
+
+/* Class = "NSTextFieldCell"; title = "MagicCFG is a tool for editing the SysCFG of  Devices.\nThe tool depends on Purple by @1nsane_dev, so make sure, \nyour device is compatible with his tool, \notherwise you wont be able to get into Diags-Mode.\n\nDeveloper: Jan Fabel (@j4nf4b3l)\nTesting: Shen Zao (@shen_zao)\nIcons: Freepik, Flaticon.com\n\nHuge thanks to...\n@1nsane_dev (Purple)\n@axi0mX (checkm8)\n@shen_zao (Icons, Testing)\nAndrew Madsen (ORSSerialPort)\n\n"; ObjectID = "t2X-n9-nfV"; */
+"t2X-n9-nfV.title" = "magicCFG 是一个读写编辑  设备的底层数据的工具.\n本工具依赖于 @ 1nsane_dev 的 Purple 因此请确保, \n您的设备与他的工具兼容, \n否则您将无法进入诊断模式.\n\开发者: Jan Fabel (@j4nf4b3l)\nTesting: 深造科技 (@shen_zao)\n图标: Freepik, Flaticon.com \n微信公众号：深圳市深造科技\n\n特别感谢...\n@1nsane_dev (Purple)\n@axi0mX (checkm8)\n@shen_zao (Icons, Testing)\nAndrew Madsen (ORSSerialPort)\n\n";
+
+/* Class = "NSMenu"; title = "MagicCFG"; ObjectID = "uQy-DD-JDr"; */
+"uQy-DD-JDr.title" = "MagicCFG";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Battery Serial"; ObjectID = "uTi-U7-GlC"; */
+"uTi-U7-GlC.placeholderString" = "电池码";
+
+/* Class = "NSTextFieldCell"; placeholderString = "EMac Adress"; ObjectID = "veb-2p-BJG"; */
+"veb-2p-BJG.placeholderString" = "蜂窩";
+
+/* Class = "NSButtonCell"; title = "Deselect all"; ObjectID = "vr7-Jt-zGr"; */
+"vr7-Jt-zGr.title" = "取消全部勾选";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Serial"; ObjectID = "wAR-k6-sdq"; */
+"wAR-k6-sdq.placeholderString" = "序列号";
+
+/* Class = "NSButtonCell"; title = "Unlock device"; ObjectID = "wdY-1O-sCG"; */
+"wdY-1O-sCG.title" = "解锁设备";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "wpq-fl-qO1"; */
+"wpq-fl-qO1.title" = "取消";
+
+/* Class = "NSMenuItem"; title = "Help"; ObjectID = "wpr-3q-Mcd"; */
+"wpr-3q-Mcd.title" = "辅助說明";
+
+/* Class = "NSTextFieldCell"; title = "Detected model:"; ObjectID = "x05-Vp-aVm"; */
+"x05-Vp-aVm.title" = "设备型号:";
+
+/* Class = "NSViewController"; title = "MagicCFG Startup"; ObjectID = "yBP-wN-VMs"; */
+"yBP-wN-VMs.title" = "MagicCFG 启动";
+
+/* Class = "NSButtonCell"; title = "Clear All"; ObjectID = "yw1-sb-wAO"; */
+"yw1-sb-wAO.title" = "清空当前数据";
+
+/* Class = "NSMenuItem"; title = "Paste"; ObjectID = "zHm-2l-p33"; */
+"zHm-2l-p33.title" = "貼上";
+
+/* Class = "NSTextFieldCell"; placeholderString = "BMac"; ObjectID = "EeN-1T-OxF"; */
+"EeN-1T-OxF.placeholderString" = "新序列號匹配的藍牙地址码";
+
+/* Class = "NSTextFieldCell"; title = "After unlocking, you have to restore your iPad over iTunes."; ObjectID = "NdZ-My-bcJ"; */
+"NdZ-My-bcJ.title" = "解锁后，您必须 iTunes 恢复您的 iPad";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Region"; ObjectID = "VVh-w2-bmb"; */
+"VVh-w2-bmb.placeholderString" = "地区";
+
+/* Class = "NSTextFieldCell"; title = "New Wifi Mac:"; ObjectID = "XEX-Fs-ZTc"; */
+"XEX-Fs-ZTc.title" = "新Wi-Fi地址码:";
+
+/* Class = "NSTextFieldCell"; title = "New BMac:"; ObjectID = "dbj-iW-inO"; */
+"dbj-iW-inO.title" = "新藍牙地址码:";
+
+/* Class = "NSButtonCell"; title = "Cancel"; ObjectID = "eDQ-hH-mZa"; */
+"eDQ-hH-mZa.title" = "取消";
+
+/* Class = "NSTextFieldCell"; title = "New serial:"; ObjectID = "eXL-c9-27R"; */
+"eXL-c9-27R.title" = "更換新序列号:";
+
+/* Class = "NSTextFieldCell"; placeholderString = "Serial"; ObjectID = "j5m-do-BX9"; */
+"j5m-do-BX9.placeholderString" = "新的无 iCloud 锁的序列号";
+
+/* Class = "NSTextFieldCell"; placeholderString = "WMac"; ObjectID = "rcD-Mw-KFh"; */
+"rcD-Mw-KFh.placeholderString" = "新序列号匹配的 Wi-Fi 地址码";
+
+/* Class = "NSButtonCell"; title = "Close"; ObjectID = "vuo-Nx-CWI"; */
+"vuo-Nx-CWI.title" = "退出";
+
+/* Class = "NSTextFieldCell"; title = "Complete iCloud unlocks are only possible on WiFi-only iPads & iPods,\nso don't waste your time with trying iPhones or Cellular iPads!"; ObjectID = "wOG-aY-Rf9"; */
+"wOG-aY-Rf9.title" = "完美的 iCloud 解鎖仅仅支持 Wi-Fi 的 iPad  & iPod,\n因此请不要浪费時間在 iPhone 或蜂窩版 iPad 上尝试!\n当然,专业維修人员可以通过更改 iPad 的设备识别电阻來更改为 Wi-Fi 版后再解锁,\n但是目前部分 iPad 修改设备机型后还需要更換 Wi-Fi 模块";
+
+/* Class = "NSTextFieldCell"; title = "MagicCFG iCloud unlock"; ObjectID = "zqH-F9-xeq"; */
+"zqH-F9-xeq.title" = "MagicCFG iCloud ";
+
+/* Class = "NSButtonCell"; title = "Select all"; ObjectID = "cxI-J0-RvU"; */
+"cxI-J0-RvU.title" = "全选";
+
+/* Class = "NSTextFieldCell"; title = "V.X"; ObjectID = "wbL-Vr-2j5"; */
+"wbL-Vr-2j5.title" = "24";
+
+/* Class = "NSButtonCell"; title = "Fix JP camera A9+"; ObjectID = "KJu-5r-Qxj"; */
+"KJu-5r-Qxj.title" = "修复日版拍照声音A9+";
+
+/* Class = "NSButtonCell"; title = "Fix JP camera A5/6/7/8"; ObjectID = "TgS-17-HKK"; */
+"TgS-17-HKK.title" = "修复日版拍照声音A8";
+
+/* Class = "NSButtonCell"; title = "Check for updates on magiccfg.com"; ObjectID = "3io-3i-bhX"; */
+"3io-3i-bhX.title" = "";
+
+/* Class = "NSTextFieldCell"; title = "Progress"; ObjectID = "1LF-QC-xCm"; */
+"1LF-QC-xCm.title" = "进展";
+
+/* Class = "NSButtonCell"; title = "Quit"; ObjectID = "3aJ-Hm-Czm"; */
+"3aJ-Hm-Czm.title" = "退出";
+
+/* Class = "NSButtonCell"; title = "CPID 6845"; ObjectID = "4lg-8p-Ayj"; */
+"4lg-8p-Ayj.title" = "CPID 6845";
+
+/* Class = "NSMenuItem"; title = "Item 2"; ObjectID = "5zL-jU-isB"; */
+"5zL-jU-isB.title" = "项目2";
+
+/* Class = "NSMenuItem"; title = "Item 3"; ObjectID = "6vD-IX-khG"; */
+"6vD-IX-khG.title" = "项目3";
+
+/* Class = "NSMenuItem"; title = "Item 1"; ObjectID = "Ci4-sy-MFG"; */
+"Ci4-sy-MFG.title" = "项目1";
+
+/* Class = "NSTextFieldCell"; title = "Please connect your iDevice"; ObjectID = "EU6-jM-6t7"; */
+"EU6-jM-6t7.title" = "请连接您的设备";
+
+/* Class = "NSTextFieldCell"; title = "Checkm8duino Flash"; ObjectID = "F6X-se-6AN"; */
+"F6X-se-6AN.title" = "    Checkm8 arduino 单片机烧录程序";
+
+/* Class = "NSButtonCell"; title = "Flash"; ObjectID = "Gf7-g6-Y87"; */
+"Gf7-g6-Y87.title" = "烧录程序";
+
+/* Class = "NSTextFieldCell"; title = "Flash Precompiled Checkm8 code to your arduino Uno"; ObjectID = "OD6-bO-ADa"; */
+"OD6-bO-ADa.title" = "   将预编译的Checkm8代码烧录到您的arduino单片机";
+
+/* Class = "NSButtonCell"; title = "Autodetect device"; ObjectID = "X5O-19-6cS"; */
+"X5O-19-6cS.title" = "自动检测装置";
+
+/* Class = "NSButtonCell"; title = "CPID 6842"; ObjectID = "YKN-bv-Sg4"; */
+"YKN-bv-Sg4.title" = "CPID 6842";
+
+/* Class = "NSTextFieldCell"; title = "Flash Arduino here -->"; ObjectID = "dLV-ZE-lci"; */
+"dLV-ZE-lci.title" = "写入 Arduino ";
+
+/* Class = "NSButtonCell"; title = "CPID 6840"; ObjectID = "dQa-Cj-r3d"; */
+"dQa-Cj-r3d.title" = "CPID 6840";
+
+/* Class = "NSTextFieldCell"; title = "Select your arduino board's serial port"; ObjectID = "eVy-jt-ltL"; */
+"eVy-jt-ltL.title" = "选择arduino板的串行端口";
+
+/* Class = "NSTextFieldCell"; title = "For having the best experience in our tool, we recommend to use an ALEX DCSD or our own MagicCFG DCSD Adapter"; ObjectID = "eXX-Vr-VsN"; */
+"eXX-Vr-VsN.title" = "为了在我们的工具中获得最佳体验，我们建议使用ALEX DCSD或我们自己的MagicCFG DCSD适配器";
+
+/* Class = "NSTextFieldCell"; title = "Select your device model's CPID"; ObjectID = "hgs-s9-sgD"; */
+"hgs-s9-sgD.title" = "选择设备型号的CPID";
+
+/* Class = "NSTextFieldCell"; title = "This tool is currently in beta-state,\nso if you have any issues,  compile and flash the code over Arduino IDE"; ObjectID = "pxU-in-w6b"; */
+"pxU-in-w6b.title" = "此工具当前处于测试版本状态，\n如果您有任何问题，\n请在Arduino IDE上编译并刷新代码烧录！";
+
+/* Class = "NSTextFieldCell"; title = "Select Port:"; ObjectID = "q73-Us-1Gy"; */
+"q73-Us-1Gy.title" = "选择端口：";
+
+/* Class = "NSButtonCell"; title = "Enable usbserial"; ObjectID = "Vzw-S6-6vC"; */
+"Vzw-S6-6vC.title" = "启用USB串行";
+
+/* Class = "NSButtonCell"; title = "Use premium diags for iPad Air 1 (NAND firmware downgrade required)"; ObjectID = "N0P-Dq-Bjs"; */
+"N0P-Dq-Bjs.title" = "对iPad Air 1使用高级诊断（需要降级NAND固件）";
+
+/* Class = "NSButtonCell"; title = "Debug"; ObjectID = "krZ-op-qa1"; */
+"krZ-op-qa1.title" = "调试";
+
+/* Class = "NSButtonCell"; title = "Weird cable?"; ObjectID = "CFj-WC-fSk"; */
+"CFj-WC-fSk.title" = "奇怪的电缆？";

@@ -1,0 +1,83 @@
+/* No comment provided by engineer. */
+"Cancel" = "Cancel";
+
+/* No comment provided by engineer. */
+"Canceled" = "Canceled";
+
+/* No comment provided by engineer. */
+"Connect" = "Connect";
+
+/* No comment provided by engineer. */
+"Continue" = "Continue";
+
+/* No comment provided by engineer. */
+"Continue in %@ seconds" = "Continue in %@ seconds";
+
+/* No comment provided by engineer. */
+"Copied" = "Copied";
+
+/* No comment provided by engineer. */
+"Copy to clipboard" = "Copy to clipboard";
+
+/* No comment provided by engineer. */
+"Device isn't supported yet by Diagitizer..." = "Device isn't supported yet by Diagitizer...";
+
+/* No comment provided by engineer. */
+"Disconnect" = "Disconnect";
+
+/* No comment provided by engineer. */
+"Done!" = "Done!";
+
+/* No comment provided by engineer. */
+"Error" = "Error";
+
+/* No comment provided by engineer. */
+"Error while exploiting\nReboot and try again..." = "Error while exploiting\nReboot and try again...";
+
+/* No comment provided by engineer. */
+"Executing commands..." = "Executing commands...";
+
+/* No comment provided by engineer. */
+"Exploiting..." = "Exploiting...";
+
+/* No comment provided by engineer. */
+"Fetching bootchain..." = "Fetching bootchain...";
+
+/* No comment provided by engineer. */
+"Information" = "Information";
+
+/* No comment provided by engineer. */
+"No device detected..." = "No device detected...";
+
+/* No comment provided by engineer. */
+"Please make sure your A5 is already in pwnedDFU. Otherwise diags can't be booted... " = "Please make sure your A5 is already in pwnedDFU. Otherwise diags can't be booted... ";
+
+/* No comment provided by engineer. */
+"Sending diags..." = "Sending diags...";
+
+/* No comment provided by engineer. */
+"Sending iBoot..." = "Sending iBoot...";
+
+/* No comment provided by engineer. */
+"Sending iBSS..." = "Sending iBSS...";
+
+/* No comment provided by engineer. */
+"Continue in \(countdown) seconds" = "";
+
+/* No comment provided by engineer. */
+"Do you wish to downgrade the NAND firmware of iPad Air now to be able to boot the premium diags?" = "";
+
+/* No comment provided by engineer. */
+"Fetching bootchain...\nThis could take some minutes..." = "";
+
+/* No comment provided by engineer. */
+"No" = "";
+
+/* No comment provided by engineer. */
+"Sending stage 1|5" = "";
+
+/* No comment provided by engineer. */
+"Sending stage 2|5" = "";
+
+/* No comment provided by engineer. */
+"Yes" = "";
