@@ -58,7 +58,7 @@ class RestoreBackupViewController: NSViewController, ORSSerialPortDelegate {
         self.ProcessView.isHidden = false
         self.StatusImg.image = #imageLiteral(resourceName: "inProgress")
         delay(bySeconds: 1) {
-            if all_log == "" {
+            if all_log != "" {
                 var progressValue = 0.0
                 self.ProgressOFRestore.doubleValue = progressValue
                 DispatchQueue.global(qos: .background).async {
